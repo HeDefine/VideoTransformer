@@ -1,0 +1,26 @@
+Third-party notices
+===================
+
+FFmpeg / @ffmpeg/core / @ffmpeg/core-mt
+---------------------------------------
+Version: 0.12.10
+License: GPL-2.0-or-later
+Upstream: https://ffmpeg.org/
+NPM package: https://www.npmjs.com/package/@ffmpeg/core
+
+The browser application distributes the FFmpeg WebAssembly core inside its
+static build output. FFmpeg source code and the WebAssembly build
+configuration are available from:
+
+- https://github.com/FFmpeg/FFmpeg
+- https://github.com/ffmpegwasm/ffmpeg.wasm
+
+MP4Box.js
+---------
+Version: 2.4.1
+License: BSD-3-Clause
+Upstream: https://github.com/gpac/mp4box.js
+
+Other bundled dependencies retain their respective upstream licenses. Run
+`npm ls --all` and inspect each package's LICENSE file for the complete
+dependency inventory.
